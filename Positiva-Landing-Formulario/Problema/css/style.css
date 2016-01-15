@@ -1,6 +1,12 @@
 /* Escribe tu CSS aquí */
-body{
-	background:url("../img/fondo_mujer_wide.png"); 
+
+.container-general{
+	background:url("../img/fondo_mujer_wide.png");
+	height: 600px; 
+}
+.container{
+	margin:20px 20px 70px 120px;
+	padding: 20px 0 20px 0;
 }
 .titulo{
 	color:white;
@@ -15,7 +21,7 @@ body{
 .parrafo{
 	color:white;
 }
-#nombre{
+#nombre, #telefono, #ciudad, #placa, #apellido, #correo, #vehiculo{
 	color:white;
 }
 .form-input{
